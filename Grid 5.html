@@ -6,7 +6,7 @@
         div{ 
             outline: 1px solid black;
         }
-        #container {
+        .container {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             margin: auto;
@@ -40,6 +40,8 @@
             .yellow2 {
                 background-color: rgb(243, 243, 162);
                 margin: 20px;
+                grid-column: 1/3;
+                grid-row: 2/4;
             }
             .smallbox {
                 grid-column: 4/5;
@@ -63,7 +65,7 @@
         </style>
     </head>
     <body>
-        <div id="container">
+        <div class="container">
             <div class="blue">
                 <div class="yellow smallbox"></div>
             </div>
