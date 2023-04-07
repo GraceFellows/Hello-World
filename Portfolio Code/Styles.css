@@ -116,7 +116,10 @@ body {
     margin-top: 80px;
     color: white;
     height: 120px;
-    border-bottom: 6px colour;
+    border-bottom: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: auto;
 }
 
 
