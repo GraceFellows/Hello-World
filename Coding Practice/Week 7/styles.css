@@ -1,0 +1,24 @@
+
+* {
+    outline: dashed rgb(170, 142, 216) 1px
+}
+.height-test{
+   height: 100px;
+}
+.container{
+    background-color:lightskyblue;
+}
+*{
+    background-color: blue;
+}
+@media (min-width: 576px) {
+* {
+    outline: pink dashed 1px;
+}
+}
+@media (min-width: 768px) {
+* {
+    outline: rgb(170, 39, 61) dashed 1px;
+}
+
+}
