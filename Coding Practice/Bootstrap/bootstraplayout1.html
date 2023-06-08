@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+        <style>
+            * {
+                outline: solid rgb(255, 255, 255) 8px
+            }
+
+            body{
+                background-color: red;
+            }
+            .blue{
+                background-color: blue;
+                height: 50px;
+            }
+            .green{
+                background-color: green;
+                height: 110px;
+            }
+            .orange{
+                background-color: orange;
+                height: 170px;
+            }
+            .grey{
+                background-color: grey;
+                height: 60px;
+            }
+
+        @media (min-width: 576px) {
+                body { background-color: orange }
+        }
+            @media (min-width: 768px) {
+                body { background-color: yellow }
+                .orange{
+                background-color: orange;
+                height: 120px;}
+                .green{
+                background-color: green;
+                height: 200px;}
+        }
+        @media (min-width: 992px) {
+                body { background-color: green }
+                .orange{
+                background-color: orange;
+                height: 180px;}
+                .green{
+                background-color: green;
+                height: 250px;}
+
+                .grey{
+                background-color: grey;
+                height: 170px;
+            }
+        }
+
+    
+        </style>
+    </head>
+    <body>
+<div class="container">
+
+    <div class="row">
+    <div class="col-lg-6 blue"></div>
+    <div class="col-lg-6 blue"></div>
+ </div>
+ <div class="row">
+    <div class="col-12 green"></div>
+</div>
+<div class="row">
+    <div class="col-12 col-lg-4 orange"></div>
+    <div class="col-12 col-lg-4 orange"></div>
+    <div class="col-12 col-lg-4 orange"></div>
+ </div>
+ <div class="row">
+    <div class="d-none d-md-block col-md-6 col-lg-3 grey"></div>
+    <div class="d-none d-md-block col-md-6 col-lg-3 grey"></div>
+    <div class="d-none d-md-block col-md-6 col-lg-3 grey"></div>
+    <div class="d-none d-md-block col-md-6 col-lg-3 grey"></div>
+ </div>
+
+    </div>
+    </body>
+
+
+</html>
