@@ -45,9 +45,10 @@ body{
     text-decoration: none;
 }
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-</style>
+
+  @import  url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+  
+
 
 body {
     background-color: #F2F2F2;
@@ -106,7 +107,7 @@ img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
-.service h2 {
+.service_h2 {
     font-size: 1.2em;
     margin-top: 0;
 }
